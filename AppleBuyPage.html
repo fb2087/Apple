@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Buy Page</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}     
+         ul,li,ol{list-style: none;}
+        a{text-decoration: none; color: #333;}
+
+         header{width: 100%; height: 140px; background-color: black;}
+        .hbg {width: 1205px; height: 140px; background-color: black; margin: 0 auto;}
+        .logo {width: 45px; height: 50px; margin: 0 auto; float: left; margin: 40px 0 0 0;}
+        nav {width: 950px; height: 25px; float: right; margin-top: 50px ;}
+        .menu li a {float: left; list-style: none; padding: 0 40px; color: white;}
+        nav ul li a:hover {color:rgb(204, 201, 197);}
+
+        .buy{width: 1205px; height: 1000px;  margin: 0 auto;}
+        .iphone{margin: 0;width: 600px; height: 800px;  float: left;}
+        .iphone img{margin: 180px 0 0 50px; }
+        .igold{display: none;}
+        .isilver{display: none;}
+        .info{width: 600px; height: 1000px;  float:right; text-align: center;}
+        .info>h1{font-size: 50px; margin-top: 70px;}
+        .info>p{text-align: left; font-size: 20px; 
+                margin: 0 0 0 35px;}
+        .info .pribtn{width: 550px; height: 70px; font-size: 20px;
+        background-color: #fff; border-radius: 10px ; cursor: pointer; border: 2px solid rgb(197, 196, 194); margin-top: 150px; }
+        .info .pribtn:hover{border: 2px solid rgb(82, 81, 80);;}
+        .info .color{font-size: 30px; text-align: center; margin-left: -10px; margin-top: 50px;}
+        .btn1{width: 200px; height: 200px;  float: left; font-size: 12px;}
+        .btn2{width: 200px; height: 200px;  float: left;font-size: 12px;}
+        .btn3{width: 200px; height: 200px;  float: left;font-size: 12px;}
+        .btn1 .blue{width: 150px; height: 150px; background-color: rgb(153, 153, 211); border: 0px; cursor: pointer;}
+        .btn2 .gold{width: 150px; height: 150px; background-color: goldenrod;
+        border: 0px; cursor: pointer;}       
+        .btn3 .silver{width: 150px; height: 150px; background-color: silver;
+        border: 0px; cursor: pointer;}
+        .blue,.gold,.silver{margin-top: 100px; box-shadow:0 0 20px 1px #333; border-radius: 10px;}
+
+        footer{width: 100%; height: 100%; margin: 0 auto; background-color: black;}
+        .footer {width: 1000px; height: 400px; margin: 0 auto; color: white;}
+        .footer a{color: white;}
+        footer nav{width: 170px; height: 400px; float: left; margin: 0 20px 0 0; font-size: 14px; }
+        footer nav ul .name{font-size: 18px;}
+        footer nav ul{margin-top: 30px;}
+        .footer4{width: 200px;}
+    </style>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $('.blue:nth-of-type(1)').click(function(){
+                $(".iblue").fadeIn();
+                $(".igold").hide();
+                $(".isilver").hide();
+            });
+            $('.gold:nth-of-type(1)').click(function(){
+                $(".igold").fadeIn();
+                $(".iblue").hide();
+                $(".isilver").hide();
+            });
+            $('.silver:nth-of-type(1)').click(function(){
+                $(".isilver").fadeIn();
+                $(".iblue").hide();
+                $(".igold").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="hbg">
+            <div class="logo"> <a href="index.html"><img src="../Apple/Applelogo.png" alt="Applelogo"></a></div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">스토어</a></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">고객지원</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="buy">
+        <div class="iphone">
+            <img class="iblue" src="../Apple/iPhoneBlue.png" alt="blue">
+            <img class="igold" src="../Apple/iPhonegold.png" alt="gold">
+            <img class="isilver" src="../Apple/iPhoneSilver.png" alt="silver">
+        </div>
+        <div class="info">
+            <h1>iPhone 12Pro 구입하기</h1>
+            <p>i Phone 8 이후 모델을 보상 판매하고 \80,000 - \870,000 <br> 더 저렴하게*</p>
+            <button class="pribtn" type="button"><b>iPhone 12 Pro</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8361; 1,350,000부터</button>
+            <p class="color">색상 선택</p>
+            <div class="btn1">
+                <button class="blue" type="button"></button>
+                <p> 시에라 블루</p>
+            </div>
+            <div class="btn2">
+                <button class="gold" type="button"></button>
+                <p>골드</p>
+            </div>
+            <div class="btn3">
+                <button class="silver" type="button"></button>
+                <p>실버</p>
+            </div>
+        </div>
+        
+    </div>
+
+<footer>
+    <div class="footer">
+
+            <nav class="footer1">
+                <ul>
+                    <li class="name"><b>쇼핑 및 알아보기</b></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">AirPods</a></li>
+                    <li><a href="#">iPod Touch</a></li>
+                    <li><a href="#">AirTag</a></li>
+                    <li><a href="#">액세서리</a></li>
+                </ul>
+            </nav>
+
+     
+            <nav class="footer2">
+                <ul>
+                    <li class="name"><b>서비스</b></li>
+                    <li><a href="#">Apple Music</a></li>
+                    <li><a href="#">Apple Arcade</a></li>
+                    <li><a href="#">iCloud</a></li>
+                    <li><a href="#">Apple Books</a></li>
+                    <li><a href="#">Apple Podcast</a></li>
+                    <li><a href="#">App Store</a></li>
+                </ul>
+                <ul>
+                    <li class="name"><b>계정</b></li>
+                    <li><a href="#">Apple ID 관리</a></li>
+                    <li><a href="#">Apple Store 계정</a></li>
+                    <li><a href="#">iCloud.com</a></li>
+                </ul>
+                
+            </nav>
+            <nav class="footer3">
+                <ul>
+                    <li class="name"><b>Apple Store</b></li>
+                    <li><a href="#">매장 찾기</a></li>
+                    <li><a href="#">온라인에서 쇼핑하기</a></li>
+                    <li><a href="#">Genius Bar</a></li>
+                    <li><a href="#">Today at Apple</a></li>
+                    <li><a href="#">Apple 캠프</a></li>
+                    <li><a href="#">Apple Store 앱</a></li>
+                    <li><a href="#">리퍼 및 특가 제품</a></li>
+                    <li><a href="#">금융 혜택</a></li>
+                    <li><a href="#">Apple Trade In</a></li>
+                    <li><a href="#">주문 상태</a></li>
+                    <li><a href="#">쇼핑 도움말</a></li>
+                </ul>
+            </nav>
+            <nav class="footer4">
+                <ul>
+                    <li class="name"><b>비즈니스</b></li>
+                    <li><a href="#">Apple과 비즈니스</a></li>
+                    <li><a href="#">비즈니스를 위한 제품</a></li>
+                </ul>
+                <ul>
+                    <li class="name"><b>교육</b></li>
+                    <li><a href="#">Apple과 교육</a></li>
+                    <li><a href="#">초중고용 재품 쇼핑하기</a></li>
+                    <li><a href="#">대학생을 위한 제품 쇼핑하기</a></li>
+                </ul>
+            </nav>
+            <nav class="footer5">
+                <ul>
+                    <li class="name"><b>Apple의 가치관</b></li>
+                    <li><a href="#">손쉬운 사용</a></li>
+                    <li><a href="#">환경</a></li>
+                    <li><a href="#">개인정보 보호</a></li>
+                    <li><a href="#">협력업체에 대한 책임</a></li>
+                </ul>
+                <ul>
+                    <li class="name"><b>Apple 정보</b></li>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="#">Apple 리더십</a></li>
+                    <li><a href="#">채용 안내</a></li>
+                    <li><a href="#">윤리 및 규정 준수</a></li>
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">일자리 창출</a></li>
+                    <li><a href="#">Apple 연락처</a></li>
+                </ul>
+            </nav>
+            
+    </div>
+</footer>
+</body>
+
+</html>
