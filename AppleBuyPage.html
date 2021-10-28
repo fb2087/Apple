@@ -43,10 +43,28 @@
         .midimg{width: 1205px; height: 1500px;} 
         .midimg img{width: 1000px; height: 1300px; margin-left: 100px;}  
 
-        .qbox{width: 1000px; height: 50px; margin: 0 auto; }
-        .Q{text-align: left}
-        div.qa{width: 1000px; height: 900px; background-color: blue; margin: 0 auto;}
-        .qa button{width: 1000px; height: 100px;}
+        
+            hr{width: 1000px; margin: 0 auto;}
+         .qa{width: 1000px; height: 100px; margin: 0 auto; background-color: brown;}
+         .qa h1{font-size: 50px; position: absolute; margin-top: 15px;}
+         .qa button{ width: 100%; height: 100px; display: block; text-align: right; border: 0; background-color: white; cursor: pointer; }
+        .qb{width: 1000px; height: auto; margin: 0 auto;}
+
+        .qc{width: 1000px; height: 100px; margin: 0 auto; background-color: brown;}
+         .qc h1{ position: absolute;}
+         .qc button{ width: 100%; height: 100px; display: block; text-align: left; border: 0; background-color: white; cursor: pointer; font-weight: bold;}
+        .qd{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; }
+        .qe{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; }
+        .qf{width: 1000px; height: 200px; font-size: 12px; text-align: left; margin: 0 auto; }
+        .qg{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; }
+        .qh{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; }
+        .qi{width: 1000px; height: 250px; font-size: 12px; text-align: left; margin: 0 auto; }
+        .qj{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; }
+        .qk{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; }
+        .ql{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; }
+
+
+        
 
 
         footer{width: 100%; height: 100%; margin: 0 auto; background-color: black;}
@@ -76,7 +94,41 @@
                 $(".igold").hide();
             });
             
-            
+        });
+    
+    
+        $(function(){
+            $('.b1').click(function(){                
+                $(".qb").slideToggle();
+            });
+
+            $('.b2').click(function(){
+                $(".qd").slideToggle();
+            });
+            $('.b3').click(function(){
+                $(".qe").slideToggle();
+            });
+            $('.b4').click(function(){
+                $(".qf").slideToggle();
+            });
+            $('.b5').click(function(){
+                $(".qg").slideToggle();
+            });
+            $('.b6').click(function(){
+                $(".qh").slideToggle();
+            });
+            $('.b7').click(function(){
+                $(".qi").slideToggle();
+            });
+            $('.b8').click(function(){
+                $(".qj").slideToggle();
+            });
+            $('.b9').click(function(){
+                $(".qk").slideToggle();
+            });
+            $('.b10').click(function(){
+                $(".ql").slideToggle();
+            });
         });
     </script>
 </head>
@@ -127,21 +179,97 @@
 
     <div class="mid">
         <div class="midimg">
-        <img src="../Apple/Applemid.jpeg" alt="">
+        <img src="../Apple/Applemid.jpeg" alt="AD">
         </div>
     </div>
 
-    <div class="qbox">
-    <h1 class="Q">자주 묻는 질문</h1>
-    </div>
+    
     <div class="qa">
-    <button class="qb" type="button">
-    <span>SIM이 없는 iPhone은 왜apple.com에서 구입하는게 좋은가요?</span>
-    <div>
-        <span>apple.com에서 구입하신 미개통 iPhone은 언락 기기입니다. 어느 한 이동통신사와 약정도, 다년간의 서비스 계약도 맺지 않은 상태의 기기라는 뜻이죠. 그래서 당신에게 알맞은 네트워크 및 요금제를 직접 선택할 수 있습니다. 새 iPhone은 활성화 후에도 여전히 언락 기기이기 때문에 iPhone용 서비스를 제공하는 어느 이동통신사에서든 개통할 수 있습니다.</span></div>
-        </button>
-        
+        <h1 class="Q">자주 묻는 질문</h1>
+        <button class="b1" type="button">펼치기</button>        
+    </div>
+    <hr>
+    <div class="qb">
+        <div class="qc">
+            <button class="b2" type="button">SIM이 없는 iPhone은 왜apple.com에서 구입하는게 좋은가요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;펼치기</button>        
         </div>
+        
+        <div class="qd">apple.com에서 구입하신 미개통 iPhone은 언락 기기입니다. 어느 한 이동통신사와 약정도, 다년간의 서비스 계약도 맺지 않은 상태의 기기라는 뜻이죠. 그래서 당신에게 알맞은 네트워크 및 요금제를 직접 선택할 수 있습니다. 새 iPhone은 활성화 후에도 여전히 언락 기기이기 때문에 iPhone용 서비스를 제공하는 어느 이동통신사에서든 개통할 수 있습니다.</div>
+        <hr>
+        <div class="qc">
+            <button class="b3" type="button">새 iPhone을 구입하면 언락 기기를 받게되나요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;펼치기</button>        
+        </div>
+        
+        <div class="qe">네, 그렇습니다. apple.com에서 구입하신 미개통 iPhone은 언락 기기입니다. 어느 한 이동통신사와 약정도, 다년간의 서비스 계약도 맺지 않은 상태의 기기라는 뜻이죠. 그래서 당신이 원하는 이동통신사를 직접 고를 수 있습니다. 새 iPhone은 활성화 후에도 여전히 언락 기기이기 때문에 iPhone용 서비스를 제공하는 어느 이동통신사에서든 개통할 수 있습니다.</div>
+        <hr>
+        <div class="qc">
+            <button class="b4" type="button">새 기기로 자료를 전송하거나 새로운 iPhone을 설정하는일은 쉬운가요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;펼치기</button>        
+        </div>
+        
+        <div class="qf">네, 그렇습니다. iCloud는 당신의 새로운 기기에 기존 설정, 사진, 앱, 문서 등을 아주 매끄럽게 옮겨줍니다. 새 기기 설정 시 iCloud에 로그인한 다음, 쓰던 기기의 iCloud 백업 파일을 열면 옮길 준비가 금세 끝나죠.<p>
+
+            백업에 이용할 iCloud 저장 용량이 부족하신가요? iCloud 저장 공간을 필요한 만큼 임시로 사용할 수 있으니 걱정 마세요. 기기를 백업해서 모든 데이터를 문제 없이 옮길 수 있습니다. 무료로 말이죠(iOS 15 필요).<p>
+            
+            '빠른 시작' 기능을 이용하면 iCloud에 백업해 둔 기존의 데이터 및 콘텐츠를 새 iPhone에 복원할 수 있습니다. iOS 12.4 이후 버전이 설치된 폰에서는 '빠른 시작' 기능이 기기 간 마이그레이션도 지원합니다. 덕분에 모든 데이터를 쓰던 기기에서 새 기기로 무선으로 편하게 옮길 수 있죠.<p>
+            
+            안드로이드에서 갈아탄 사용자라면 먼저 'iOS로 이동' 앱을 다운로드한 다음, 새 iPhone 화면에 나타난 설정 프로세스에 따라 진행하면 됩니다.<p>
+            
+            새 iPhone으로 데이터 옮기는 방법을 자세히 알아보려면 support.apple.com/ko-kr/HT201269를 참고하십시오.</div>
+        <hr>
+        <div class="qc">
+            <button class="b5" type="button">국내에서 개통한 iPhone을 해외 네트워크에서도 사용할 수 있나요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;펼치기</button>        
+        </div>
+        
+        <div class="qg">모든 iPhone 모델은 전 세계적으로 거의 어디에서나 사용 가능합니다. GSM 혹은 CDMA 네트워크 가입 고객에 상관없이, 전 세계 200개 이상의 국가 또는 지역에서 GSM 네트워크를 통해 국제 로밍이 가능합니다. 이동통신사를 통해 iPhone을 할부로 구입한 경우에는 해당 이동통신사에 문의해 국제 로밍이 가능한지 확인하십시오.<p>
+
+            5G 및 LTE 데이터 지원 여부는 국가 또는 지역에 따라 달라지며, 특정 5G 및 LTE 무선 주파수에 대한 이동통신사 지원에 따라서도 달라집니다. 국제 로밍 정책 및 요금에 관한 자세한 내용은 이동통신사에 문의하십시오.</div>
+        <hr>
+        <div class="qc">
+            <button class="b6" type="button">5G 서비스를 제공하는 무선 이동통신사는 어디인가요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;펼치기</button>        
+        </div>
+        
+        <div class="qh">iPhone 13 Pro, iPhone 13 Pro Max, iPhone 13, iPhone 13 mini, iPhone 12, iPhone 12 mini는 5G를 지원합니다. 5G 네트워크 사용을 위해서는 5G 서비스를 제공하는 이동통신사를 통해 iPhone을 개통해야 합니다. 일부 이동통신사의 경우 5G 요금제 가입 또는 새 SIM 장착을 요구할 수 있습니다. 자세한 내용은 가입하신 이동통신사에 문의하십시오. 귀하가 현재 거주 중인 국가의 이동통신사에 대한 자세한 내용은 여기를 참고하십시오.</div>
+        <hr>
+        <div class="qc">
+            <button class="b7" type="button">Apple Trade In은 어떻게 진행되나요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;펼치기</button>        
+        </div>
+        
+        <div class="qi">Apple Trade In은 간단한 절차를 거쳐 새 iPhone 구입 시 사용할 수 있는 크레딧을 받을 수 있는 프로그램입니다. 간단하게 기기에 대한 몇 가지 질문에 답변만 하시면 됩니다. 답변 내용을 바탕으로 산출된 예상 보상 판매 견적을 알려 드리고, 새 iPhone을 할부로 구입하는 경우, 보상 판매 금액 만큼 크레딧을 즉시 적용해 할부금을 차감해드립니다. 일시불로 구입하는 경우에는 보상 판매 기기를 수령한 이후, 결제에 사용된 수단을 통해 크레딧을 지급해드립니다. 크레딧 적용 대상이 아닌 기기는 Apple에서 무료로 재활용해 드립니다.<p>
+
+            구입하신 새 iPhone이 출고된 이후 보상 판매 키트를 무료로 보내드릴 예정이며, 키트에는 보상 판매 관련 지침 및 선불 배송 라벨이 포함됩니다. 보내주신 기기 수령 후 검수 절차가 시작되며 모든 검수 과정이 끝나면 보상 판매 절차도 완료됩니다. 검수 결과 보내주신 기기의 상태가 설명과 다른 경우 그 다음 단계를 이메일로 안내해드립니다. 보상 판매 금액이 구입하신 새 iPhone의 가격보다 높은 경우, 차액을 충전한 Apple Store Gift Card를 이메일로 보내드립니다.<p>
+            
+            온라인 보상 판매 절차는 보통 2~3주 정도 걸립니다.<p>
+            
+            Apple Store에서 새 기기를 구입하는 동시에 갖고 계신 기기의 보상 판매를 진행할 수도 있습니다. 다만 온라인에서 확인한 예상 보상 판매 견적과 매장에서 제공되는 보상 판매 가격은 다를 수 있습니다.</div>
+        <hr>
+        <div class="qc">
+            <button class="b8" type="button">AppleCare+에는 어떤 혜택이 포함되어 있나요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;펼치기</button>        
+        </div>
+        
+        <div class="qj">모든 iPhone에는 1년 제한 보증을 통한 하드웨어 수리 보증 서비스를 비롯해 최대 90일간의 무료 지원 서비스가 제공됩니다.<p>
+
+            AppleCare+를 구입하면 보증 기간이 2년으로 연장되며, Apple 전문가의 우선 지원, Apple 하드웨어 수리 보증과 소프트웨어 지원이 추가로 제공됩니다.<p> AppleCare+에는 12개월당 최대 2건의 우발적인 손상에 대한 보장도 포함되어 있습니다.◊</div>
+        <hr>
+        <div class="qc">
+            <button class="b9" type="button">배송 옵션에는 어떤 것이 있으며,제품은 언제 받아볼 수 있나요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;펼치기</button>        
+        </div>
+        
+        <div class="qk">예상 배송 날짜는 제품 재고 및 선택한 배송 옵션을 바탕으로 계산됩니다. 주문한 후에 최종 배송 날짜를 알려드립니다.<p>
+
+            재고가 있는 제품에 한해 익일 무료 배송을 받을 수 있고, 모든 주문에는 일반 무료 배송이 제공됩니다.<p>
+            
+            지역에 따라 Apple Store 픽업 옵션도 지원될 수 있습니다. 결제 시, 가까운 Apple Store에서 제품을 픽업하겠다는 옵션을 선택하면 됩니다.<p>
+            
+            apple.com에 접수된 주문은 구입한 국가 또는 지역 내로만 배송이 가능합니다. 배송을 원하는 지역의 Apple Online Store를 이용하시기 바랍니다.</div>
+        <hr>
+        <div class="qc">
+            <button class="b10" type="button">iPhone 반품이 가능한가요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;펼치기</button>        
+        </div>
+        
+        <div class="ql">네, 그렇습니다. 마음이 바뀌어 더 이상 구입하신 iPhone을 원치 않으신다면 반품을 신청할 수 있습니다. 반품된 iPhone은 양호한 상태여야 하며, 모든 액세서리, 설명서, 지침서가 구입 당시 기기가 담겨있던 포장 상자에 모두 포함되어 있어야 합니다. 반품은 Apple의 판매 및 환불 정책 적용 대상입니다.</div>
+        <hr>
+    </div>
+    
 <footer>
     <div class="footer">
 
