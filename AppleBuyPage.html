@@ -5,75 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple Buy Page</title>
     <style>
-        *{margin: 0; padding: 0; box-sizing: border-box;}     
-         ul,li,ol{list-style: none;}
-        a{text-decoration: none; color: #333;}
-
-         header{width: 100%; height: 140px; background-color: black;}
-        .hbg {width: 1205px; height: 140px; background-color: black; margin: 0 auto;}
-        .logo {width: 45px; height: 50px; margin: 0 auto; float: left; margin: 40px 0 0 0;}
-        nav {width: 950px; height: 25px; float: right; margin-top: 50px ;}
-        .menu li a {float: left; list-style: none; padding: 0 40px; color: white;}
-        nav ul li a:hover {color:rgb(204, 201, 197);}
-
-        .buy{width: 1205px; height: 1000px;  margin: 0 auto;}
-        .iphone{margin: 0;width: 600px; height: 800px;  float: left;}
-        .iphone img{margin: 180px 0 0 50px; }
-        .igold{display: none;}
-        .isilver{display: none;}
-        .info{width: 600px; height: 1000px;  float:right; text-align: center;}
-        .info>h1{font-size: 50px; margin-top: 70px;}
-        .info>p{text-align: left; font-size: 20px; 
-                margin: 0 0 0 35px;}
-        .info .pribtn{width: 550px; height: 70px; font-size: 20px;
-        background-color: #fff; border-radius: 10px ; cursor: pointer; border: 2px solid rgb(197, 196, 194); margin-top: 150px; }
-        .info .pribtn:hover{border: 2px solid rgb(82, 81, 80);;}
-        .info .color{font-size: 30px; text-align: center; margin-left: -10px; margin-top: 50px;}
-        .btn1{width: 180px; height: 150px; margin: 100px 20px 0 0px ; border: 1px solid #666; border-radius: 20px; float: left; font-size: 12px; }
-        .btn2{width: 180px; height: 150px; margin: 100px 20px 0 0 ; border: 1px solid #666; border-radius: 20px;  float: left;font-size: 12px;}
-        .btn3{width: 180px; height: 150px; margin: 100px 20px 0 0 ; border: 1px solid #666; border-radius: 20px;  float: left;font-size: 12px;}
-        .btn1 .blue{width: 50px; height: 50px; margin-top: 30px; background-color: rgb(153, 153, 211); border-radius: 50px; border: 0; cursor: pointer;}
-        .btn2 .gold{width: 50px; height: 50px; margin-top: 30px; background-color: goldenrod;
-            border-radius: 50px; border: 0; cursor: pointer;}       
-        .btn3 .silver{width: 50px; height: 50px; margin-top: 30px; background-color: silver;
-            border-radius: 50px; border: 0; cursor: pointer;}
-        .blue,.gold,.silver{margin-top: 100px; box-shadow:0 0 20px 1px #333; border-radius: 10px;}
-
-        .mid{width: 1205px; margin: 0 auto;} 
-        .midimg{width: 1205px; height: 1500px;} 
-        .midimg img{width: 1000px; height: 1300px; margin-left: 100px;}  
-
+        @import url(../Apple/css/common.css);
+        @import url(../Apple/css/sub.css);
         
-            hr{width: 1000px; margin: 0 auto;}
-         .qa{width: 1000px; height: 100px; margin: 0 auto;}
-         .qa h1{font-size: 50px; position: absolute; margin-top: 15px;}
-         .qa button{ width: 100%; height: 100px; display: block; text-align: right; border: 0; background-color: white; cursor: pointer; font-weight: bold; }
-        .qb{width: 1000px; height: auto; margin: 0 auto; }
-
-        .qc{width: 1000px; height: 100px; margin: 0 auto;}
-         .qc h1{ position: absolute;}
-         .qc button{ width: 100%; height: 100px; display: block; text-align: left; border: 0; background-color: white; cursor: pointer; font-weight: bold;}
-        .qd{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; display: none;}
-        .qe{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto;display: none; }
-        .qf{width: 1000px; height: 200px; font-size: 12px; text-align: left; margin: 0 auto;display: none; }
-        .qg{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; display: none;}
-        .qh{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; display: none;}
-        .qi{width: 1000px; height: 250px; font-size: 12px; text-align: left; margin: 0 auto; display: none;}
-        .qj{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; display: none;}
-        .qk{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; display: none;}
-        .ql{width: 1000px; height: 100px; font-size: 12px; text-align: left; margin: 0 auto; display: none;}
-
-
         
-
-
-        footer{width: 100%; height: 100%; margin: 0 auto; background-color: black;}
-        .footer {width: 1000px; height: 400px; margin: 0 auto; color: white;}
-        .footer a{color: white;}
-        footer nav{width: 170px; height: 400px; float: left; margin: 0 20px 0 0; font-size: 14px; }
-        footer nav ul .name{font-size: 18px;}
-        footer nav ul{margin-top: 30px;}
-        .footer4{width: 200px;}
     </style>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
     <script>
